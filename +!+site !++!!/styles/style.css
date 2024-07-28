@@ -1,0 +1,61 @@
+ :root {
+    --green: #00FF00;
+    --white: #ffc4d5;
+    --black: #821031;
+    
+ }
+
+ * {
+    color: var(--fontColor);
+ }
+
+ body {
+    background: linear-gradient(45deg,#821031,#ffc4d5) fixed;
+    font-family: 'SFcompact';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+ }
+
+h2{
+   align-items: center;
+}
+
+main {
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+}
+
+header{
+   display: flex;
+   font-family: 'SFcompact';
+   align-items: topline ;
+}
+
+button {
+   font-family: 'SFcompact';
+   width: 900px;
+   height: 130px;
+   font-size: 39px;
+   color:#821031;
+   padding: 8px 22px;
+   border-radius: 100px;
+   background: #ffc4d5;
+   transition: all 0.2s ease;
+}
+
+button:active {
+   transform: scale(0.80);
+}
+
+.container {
+   margin-top: 50px;
+   background-color: #ffffff;
+   border-radius: 20px;
+   padding: 100px 60px;
+   width: 200px;
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55
+   );
+
+}
