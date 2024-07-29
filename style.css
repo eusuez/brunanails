@@ -43,7 +43,7 @@ button {
    padding: 8px 22px;
    border-radius: 100px;
    background: #ffc4d5;
-   transition: all 0.2s ease;
+   transition: all 0.1s ease;
 }
 
 button:active {
