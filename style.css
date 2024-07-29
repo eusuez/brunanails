@@ -31,6 +31,7 @@ header{
    display: flex;
    font-family: 'SFcompact';
    align-items: topline ;
+   alingn-items: center ;
 }
 
 button {
