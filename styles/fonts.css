@@ -5,3 +5,11 @@
     font-size: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Sanseriffic';
+    src: url('../components/fonts/Sanseriffic.woff') format('woff'),
+        url('../components/fonts/Sanseriffic.woff2') format('woff2');
+    font-size: normal;
+    font-weight: normal;
+}
