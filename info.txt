@@ -1,9 +1,0 @@
-colorMain : #ffc4d5
-colorMain2 : #86072c
-
- <form>
-                    <input type="text" placeholder="Nome">
-                    <input type="tel" placeholder="(**)******-****">
-                    <input type="submit" value="criar">
-    
-                </form>
