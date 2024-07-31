@@ -15,17 +15,29 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
  }
 
 h2{
    display: flex;
    align-items: center;
+   font-size: medium;
+   font-size: 35px;
+   margin: 0px;
+}
+
+h3{
+   text-align: center;
 }
 
 main {
    display: flex;
    flex-direction: column;
    margin-top: 50px;
+   align-items: center;
+   margin: 0px;
 }
 
 header{
@@ -38,18 +50,27 @@ li{
    list-style: none;
    display: flex;
    align-items: center;
+   margin-bottom: 5px;
 }
 
 button {
-   font-family: 'SFcompact';
-   width: 100px;
-   height: 30px;
-   font-size: 5px;
+   font-family: 'Sanseriffic';
+   width: 320px;
+   height: 59.19px;
+   font-size: 20px;
    color:#821031;
-   padding: 8px 22px;
+   padding: 20px 0px;
    border-radius: 100px;
    background: #ffc4d5;
    transition: all 0.2s ease;
+   text-align: center;
+}
+
+.button2{
+   font-size: 20px;
+   background: none;
+   border: none;
+
 }
 
 button:active {
